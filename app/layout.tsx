@@ -29,7 +29,7 @@ const dynapuff = DynaPuff({
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/favicon.ico',
+    icon: ['/favicon.ico'],
   },
   metadataBase: new URL("https://princebajgain.com.np"),
 
