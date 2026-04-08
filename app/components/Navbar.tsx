@@ -135,9 +135,7 @@ const Navbar = () => {
                         <span className={`hover:bg-white transition-all duration-500 cursor-pointer ${open && "bg-stone-400 text-stone-950"} hover:text-stone-950 rounded-full py-2 px-4 text-sm flex gap-1 items-center justify-center`} onClick={() => { setOpen(!open) }}>More {open ? <FaAngleUp /> : <FaAngleDown />}</span>
                     </div>
                     <div id="right" className='flex gap-2'>
-                        <div id="left" className='p-2 rounded-full transition-all duration-500 bg-stone-800 hover:bg-stone-700 text-stone-400 cursor-pointer hover:text-stone-50'>
-                            {isDark ? <MdOutlineDarkMode /> : <MdDarkMode />}
-                        </div>
+                       
                         <div id="right">
                             <a href="https://wa.me/9779708090851?text=Hello"
                                 target="_blank"
